@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+void calculateBreakEvenPoint() {
+    float fixedCosts = 10000000;
+    float pricePerUnit = 100000;
+    float variableCostPerUnit = 50000;
+    float breakEvenPoint = fixedCosts / (pricePerUnit - variableCostPerUnit);
+
+    printf("Break-even Point: %.2f units\n", breakEvenPoint);
+}
+
+int main() {
+    calculateBreakEvenPoint();
+    return 0;
+}

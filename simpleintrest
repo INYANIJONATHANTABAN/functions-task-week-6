@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+void calculateSimpleInterest() {
+    float principal = 2000000;
+    float rate = 6;
+    int time = 3;
+    float simpleInterest = (principal * rate * time) / 100;
+
+    printf("Simple Interest: UGX %.2f\n", simpleInterest);
+}
+
+int main() {
+    calculateSimpleInterest();
+    return 0;
+}

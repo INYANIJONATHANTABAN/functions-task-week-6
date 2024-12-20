@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+void calculateFlatInterest() {
+    float investmentAmount = 1000000;
+    float rate = 0.04;
+    int time = 2;
+    float flatInterest = investmentAmount * rate * time;
+
+    printf("Flat Interest: UGX %.2f\n", flatInterest);
+}
+
+int main() {
+    calculateFlatInterest();
+    return 0;
+}
